@@ -1,0 +1,190 @@
+*{
+	padding:0;
+	margin: 0; 
+}
+
+body {
+	font-family: 'Raleway', sans-serif;}
+
+a{
+	  text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.header{
+	padding: 10px 0;
+}
+
+.brand-icn{
+	text-align: center;
+}
+
+.navbar{
+
+	background-color: #363636;
+	margin-bottom: 60px;
+}
+
+.navigation{
+    
+    text-align: center;
+    margin-bottom: px;
+} 
+
+.navigation ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.navigation ul li{
+	position: relative;
+}
+
+.navigation ul li a{
+	padding: 10px 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-right: 2px solid #fff; 
+    display: block;
+}
+
+.navigation ul li a:hover{
+    background-color: white;
+    color:#900d00;
+}
+
+.submenu{
+	display: none;
+	position: absolute;
+	top:42px;
+	background-color:  #363636;
+	width: 148px;
+	text-align: left;
+	z-index: 999;
+}
+
+
+.submenu ul{
+	display: block;
+}
+
+.submenu ul li{
+	border-bottom: 1px dashed #fff;
+}
+
+.submenu ul li a{
+	border-right: none;
+	display: block;
+}
+.submenu ul li:hover{
+	 background-color: #fff;
+    
+}
+
+.navigation ul li:hover .submenu{
+	display: block;
+}
+
+.heading h4{
+	color: #900d00 ;
+	margin-bottom: 45px;
+	font-weight: bold;
+}
+
+.about-con{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.images{
+	margin-right: 50px;
+	width: 45%;
+}
+
+.img-1{
+	margin-left: 100px;
+	position: absolute;
+}
+
+.img-2{
+	position: relative;		
+}
+
+
+.body-txt{
+	width: 45%;
+}
+
+
+h1{
+	font-size: 80px;
+	color:#900d00;
+	margin-bottom: 20px;
+}
+
+ .body-txt p{
+	font-weight: 600;
+	line-height: 3;
+
+}
+
+
+.footer{
+
+	background-color: #363636;
+}
+
+.footer-sec{
+    
+    text-align: center;
+} 
+
+.footer-sec ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.footer-sec ul li{
+	position: relative;
+    padding: 10px 0; 
+   
+}
+
+.footer-sec ul li a{
+	padding: 5px 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    border-right: 1px solid #fff; 
+}
+
+.footer-sec ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer-sec p{
+	justify-content: center;
+	color: #fff;
+	list-style-type: none;
+	font-size: 17px;
+	
+}
+
+.footer-sec h4{
+	color:#fff ;
+	padding: 7px;
+}
